@@ -3,8 +3,8 @@
     <title>Contact Us | Customer Support</title>
     <script>
       var dataLayer = [{
-        pageName: "User Verification",
-        pageTitle: "User Verification | Customer Support",
+        pageName: "User Form",
+        pageTitle: "User Form | Customer Support",
         formDetails: {
           fullName: "",
           email: "",
@@ -92,7 +92,7 @@
       class="container"
       style="margin-top: 3%; align-content: center; width: 30%"
     >
-      <form class="userInfoForm" action="image_page.html">
+      <form id="userForm" class="userInfoForm" action="image_page.html">
         <div class="mb-3">
           <label for="fullName" class="form-label">Full Name</label>
           <input
@@ -154,7 +154,7 @@
           </div>
         </div>
         <div class="mb-3">
-            <button class="btn btn-primary" type="submit" style="margin-left:48%">Submit</button>
+            <button class="btn btn-primary" id="submit" type="submit" style="margin-left:48%">Submit</button>
         </div>
       </form>
     </div>
